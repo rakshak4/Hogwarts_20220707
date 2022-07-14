@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CreditsEarnedCannotExceedMax</fullName>
+    <active>true</active>
+    <errorConditionFormula>CreditsEarned__c  &gt;  Module__r.MaxCredits__c</errorConditionFormula>
+    <errorMessage>Marks Earned cannot exceed Maximum Marks of Module</errorMessage>
+</ValidationRule>
